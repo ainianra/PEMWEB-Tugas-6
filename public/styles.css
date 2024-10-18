@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Hitam */
+    color: #FFFFFF; /* Putih */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(135deg, #5D3F91, #2C3E50); /* Ungu Tua ke Biru Tua */
+    padding: 40px; /* Menambahkan padding di dalam kontainer */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #A76BB6; /* Ungu Muda */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px; /* Padding dalam input */
+    margin-bottom: 15px;
+    border: 1px solid #5D3F91; /* Ungu Tua */
+    border-radius: 5px;
+    background-color: #2C3E50; /* Biru Tua */
+    color: #FFFFFF; /* Putih */
+    box-sizing: border-box; /* Memastikan padding dan border dimasukkan dalam lebar total */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #A76BB6; /* Ungu Muda */
+    color: #FFFFFF; /* Putih */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5D3F91; /* Ungu Tua */
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #3498DB; /* Biru Muda */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
